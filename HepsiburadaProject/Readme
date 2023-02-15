@@ -1,4 +1,4 @@
-Maven projesi oluşturuyoruz,Pom.xml sayfasında gerekli bağımlılıklarımızı tanımladıktan sonra projemize “Gherkin” ve ”Cucumber.js” pluginleri ekliyoruz.
+Maven projesi oluşturuyoruz,Pom.xml sayfasında gerekli bağımlılıklarımızı tanımladıktan sonra projemize “Gherkin” ve ”cucumber for java” pluginleri ekliyoruz.
 1-Step Src main java testRunner ve Util olarak 2 tane package açıyoruz
 2-Step testRunner dosyasının içine 1 adet runner java class dosyası açıyoruz
 3-Step Util dosyasının içine java class ConfigReader,DriverFactory,ElementHelper,Hooks Dosyalarını açıyoruz.
