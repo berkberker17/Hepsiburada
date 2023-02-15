@@ -1,0 +1,10 @@
+Pom.xml sayfasında gerekli bağımlılıklarımızı tanımladıktan sonra projemize “Gherkin” ve ”Cucumber.js” pluginleri ekliyoruz.
+1-Step Src main java testRunner ve Util olarak 2 tane package açıyoruz
+2-Step testRunner dosyasının içine 1 adet runner java class dosyası açıyoruz
+3-Step Util dosyasının içine java class ConfigReader,DriverFactory,ElementHelper,Hooks Dosyalarını açıyoruz.
+4-Step test java dosyasının içinede Features,Pages,StepDefinitions package dosyası açıyoruz.
+5-Step Features dosyasının içine 1 adet file dosyası ekliyoruz ve projemizin ismi "x" = x.feature olarak file dosyasını cucumber dosyası olarak açıyoruz.
+6-Step resources dosyasının içine 1 adet file dosyası config.properties olarak ekliyoruz.
+7-Step resources dosyasının içine 1 adet TestNG.xml ekliyoruz.
+8.Hepsiburada.feature alanımıza adımlarımızı yazıyoruz daha sonra onların HepsiburadaStepsler alanına tanımlıyor daha sonra HepsiburadaPage alanınada HepsiburadaStepslere alanına tanımladığımız adımları yazıyoruz.
+9.HepsiburadaPage alanındada Locatorlarımızı tanımlayarak yapmak istediğimiz click ve diğer komutları belirtiyoruz.Daha sonra TestNG.xml dosyamızı çalıştırıyoruz.
